@@ -1,0 +1,162 @@
+
+.contentUser__create {
+    display: flex;
+    justify-content: end;
+    background-color: #fff;
+}
+
+.contentUser {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  
+  .contentUser__main {
+    margin-right: auto;
+    background: #fff;
+  }
+  
+  .contentUser__main .commonTitle {
+    padding: 14px 14px 0;
+  }
+  
+  .contentUser__main .user__list__table table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .contentUser__main .user__list__table table .action {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .contentUser__main .user__list__table table thead {
+    background: #0d6efd;
+  }
+  
+  .contentUser__main .user__list__table table thead tr th {
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+    color: white;
+  }
+  
+  .contentUser__main .user__list__table table thead tr th:nth-of-type(1) {
+    width: 120px;
+    padding: 8px 12px 8px 14px;
+  }
+  
+  .contentUser__main .user__list__table table thead tr th:nth-of-type(2) {
+    max-width: 300px;
+    padding-right: 12px;
+  }
+  
+  .contentUser__main .user__list__table table thead tr th:nth-of-type(3) {
+    max-width: 170px;
+    padding-right: 12px;
+  }
+  
+  .contentUser__main .user__list__table table thead tr th:nth-of-type(4) {
+    max-width: 155px;
+    padding-right: 12px;
+  }
+  
+  .contentUser__main .user__list__table table thead tr th:nth-of-type(5) {
+    max-width: 200px;
+    text-align: center;
+  }
+
+  .contentUser__main .user__list__table table thead tr th:nth-of-type(6) {
+    text-align: center;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr {
+    border-bottom: 1px solid #DEDEDE;
+    cursor: pointer;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr:hover, .contentUser__main .user__list__table table tbody tr.active {
+    background: #E9F5F5;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr td {
+    vertical-align: middle;
+    padding-top: 12px;
+    padding-bottom: 9px;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr td small {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: rgba(21, 33, 47, 0.5);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr td:nth-of-type(1) {
+    width: 46px;
+    padding: 8px 12px 8px 14px;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr td:nth-of-type(2) {
+    padding-right: 12px;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr td:nth-of-type(3) {
+    padding-right: 12px;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr td:nth-of-type(4) {
+    padding-right: 12px;
+  }
+  
+  .contentUser__main .user__list__table table tbody tr td:nth-of-type(5) {
+    text-align: center;
+  }
+
+  .contentUser__main .user__list__table table tbody tr td:nth-of-type(6) {
+    text-align: center;
+  }
+
+
+.contentUser .form-create {
+    width: 100%;
+    display: block;
+}
+
+.contentUser .form-create .user__create {
+    padding: 2rem;
+}
+
+.contentUser .form-create .user__create .contentUser-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.contentUser .form-create .user__create .contentUser-body .form-input {
+    padding-bottom: 1rem;
+}
+
+.alert-success {
+    animation: cssAnimation 0s 2s forwards;
+    visibility: visible;
+}
+
+.alert-danger {
+  animation: cssAnimation 0s 2s forwards;
+  visibility: visible;
+}
+
+@keyframes cssAnimation {
+to   { visibility: hidden; display: none; }
+}
